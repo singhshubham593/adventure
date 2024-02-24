@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=poppins);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 4vmin;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.active{
+    color: aqua;
+    font-weight: bold; 
+}
+/*nav bar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: azure;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 30px;
+}
+/* header */
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/adve1.jpg);
+    background-position: bottom;
+    background-size: cover ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    color: whitesmoke;
+    font-size: 4vmin;
+}
+ 
+.line{
+
+    width: 100px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin: 5px auto;
+    border-radius: 3px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 6px 12px;
+    background-color: rgba(16, 14, 14, 0.936);
+    border-radius: 30px;
+    color: rgb(253, 248, 248);
+    font-size: 4vmin;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+} 
