@@ -12,10 +12,6 @@ ul{
 a{
     text-decoration: none;
 }
-.active{
-    color: aqua;
-    font-weight: bold; 
-}
 /*nav bar*/
 .navbar{
     position: absolute;
@@ -126,6 +122,8 @@ h4{
 p{
     color: #332b2b;
     font-size: medium;
+    padding: 0 30px;
+     
 }
 .events .ctn{
     margin-top: 20px;
@@ -194,7 +192,7 @@ body , html{
     background-color: black;
 }
 .content-col p{
-    padding: 0;
+    padding: 0 10px;
     margin: 30px auto;
 }
 .content-col .ctn{
@@ -208,10 +206,12 @@ body , html{
     margin: 0;
     background-color: rgb(112, 158, 142);
     text-align: center;
+    padding: 0 0 10px 0;
 }
 .footer p{
     color: #f7f2f2;
     margin: 20px auto;
+    padding: 0 0 10px 0;
 }
 /* mobile device*/
 @media only screen and (max-width:850px) {
@@ -256,6 +256,7 @@ body , html{
     .explore-content{
         width: 100%;
     }
+     
     /* tour*/
     .tours .col{
         width: 100%;
